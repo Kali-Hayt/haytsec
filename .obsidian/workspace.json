@@ -11,14 +11,10 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "99-personal-logs/2025-07-19-todo.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-07-19-todo"
+              "title": "New tab"
             }
           }
         ]
@@ -169,9 +165,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "99-personal-logs/2025-07-19-todo.md",
     "99-personal-logs/2025-07-19-scratchpad.md",
     "99-personal-logs/2025-07-19-daily.md",
-    "99-personal-logs/2025-07-19-todo.md",
     "100-archive/personal-log",
     "100-archive",
     "99-personal-logs/todo/2025-07-19.md",
