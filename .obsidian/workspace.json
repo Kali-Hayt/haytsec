@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99-personal-logs/2025-07-19-daily.md",
+                "file": "01-cloud-infrastructure/aws/phase-6-monitoring.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-19-daily"
+              "title": "phase-6-monitoring"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#aws/account-setup",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -169,12 +169,17 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "00-about/haytsec-mission.md",
+    "01-cloud-infrastructure/aws/phase-5-storage.md",
+    "01-cloud-infrastructure/aws/phase-4-compute.md",
+    "01-cloud-infrastructure/aws/phase-3-security.md",
+    "01-cloud-infrastructure/aws/phase-2-networking.md",
+    "01-cloud-infrastructure/aws/haytsec-aws-plan.md",
+    "01-cloud-infrastructure/aws/phase-1-account.md",
+    "01-cloud-infrastructure/aws/phase-0-primer.md",
     "99-personal-logs/2025-07-19-daily.md",
+    "00-about/haytsec-mission.md",
     "99-personal-logs/2025-07-19-todo.md",
     "99-personal-logs/2025-07-19-scratchpad.md",
-    "01-cloud-infrastructure/aws/phase-1-account.md",
-    "01-cloud-infrastructure/aws/phase-2-networking.md",
     "01-cloud-infrastructure/aws/docs/billing.md",
     "00-about/tags.md",
     "100-archive/screenshot-png-leftover/aws/2025-07-20-billing-summary.png",
@@ -192,18 +197,13 @@
     "01-cloud-infrastructure/aws/screenshots/2025-07-20-billing-dashboard-zero-usage.md",
     "Screenshot 2025-07-20 at 01-21-43 Bills Billing and Cost Management Global.png",
     "01-cloud-infrastructure/aws/screenshots-audit",
-    "01-cloud-infrastructure/aws/phase-3-security.md",
-    "01-cloud-infrastructure/aws/phase-0-primer.md",
     "00-about/mr.hayt-bio.md",
     "01-cloud-infrastructure/aws/docs",
     "01-cloud-infrastructure/aws/common",
     "01-cloud-infrastructure/aws/docs.md",
     "01-cloud-infrastructure/aws/common.md",
     "01-cloud-infrastructure/aws/phase-6-monitoring.md",
-    "01-cloud-infrastructure/aws/phase-5-storage.md",
-    "01-cloud-infrastructure/aws/phase-4-compute.md",
-    "01-cloud-infrastructure/iac",
-    "01-cloud-infrastructure/haytsec-aws-plan.md",
+    "01-cloud-infrastructure/aws/iac",
     "01-cloud-infrastructure/aws",
     "01-cloud-infrastructure/aws-setup.md",
     "05-certification-notes/02-network+/04_lesson/general-notes-practice-memorize/subnetting-drill-routine.md",
