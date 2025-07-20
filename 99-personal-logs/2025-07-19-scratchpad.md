@@ -1,9 +1,10 @@
 ---
-tags: [scratchpad, ideas, personal]
-created: 2025-07-19
+tags:
+  - scratchpad
+created: 2025-07-20
 ---
 
-# 📝 Scratchpad — 2025-07-19
+# 📝 Scratchpad — 2025-07-20
 
 ---
 
