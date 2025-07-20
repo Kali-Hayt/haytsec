@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-cloud-infrastructure/aws/phase-6-monitoring.md",
+                "file": "01-cloud-infrastructure/aws/haytsec-aws-plan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "phase-6-monitoring"
+              "title": "haytsec-aws-plan"
             }
           }
         ]
@@ -169,13 +169,16 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "01-cloud-infrastructure/aws/phase-0-primer.md",
+    "01-cloud-infrastructure/aws/haytsec-aws-plan.md",
+    "phase-0-primer/phase-0-primer.md",
+    "phase-0-primer",
+    "01-cloud-infrastructure/aws/phase-6-monitoring.md",
     "01-cloud-infrastructure/aws/phase-5-storage.md",
     "01-cloud-infrastructure/aws/phase-4-compute.md",
     "01-cloud-infrastructure/aws/phase-3-security.md",
     "01-cloud-infrastructure/aws/phase-2-networking.md",
-    "01-cloud-infrastructure/aws/haytsec-aws-plan.md",
     "01-cloud-infrastructure/aws/phase-1-account.md",
-    "01-cloud-infrastructure/aws/phase-0-primer.md",
     "99-personal-logs/2025-07-19-daily.md",
     "00-about/haytsec-mission.md",
     "99-personal-logs/2025-07-19-todo.md",
@@ -202,14 +205,12 @@
     "01-cloud-infrastructure/aws/common",
     "01-cloud-infrastructure/aws/docs.md",
     "01-cloud-infrastructure/aws/common.md",
-    "01-cloud-infrastructure/aws/phase-6-monitoring.md",
     "01-cloud-infrastructure/aws/iac",
     "01-cloud-infrastructure/aws",
     "01-cloud-infrastructure/aws-setup.md",
     "05-certification-notes/02-network+/04_lesson/general-notes-practice-memorize/subnetting-drill-routine.md",
     "05-certification-notes/02-network+/04_lesson/general-notes-practice-memorize",
     "05-certification-notes/02-network+/04_lesson/general-notes-practice-memorize/what-is-broadcast.md",
-    "05-certification-notes/02-network+/04_lesson/4.5-ip-version6",
     "05-certification-notes/02-network+/networking+screenshots/lesson-04-Screenshots/Pasted image 20250715002327.png",
     "05-certification-notes/02-network+/networking+screenshots/lesson-04-Screenshots/Pasted image 20250714092942.png",
     "05-certification-notes/02-network+/networking+screenshots/lesson-04-Screenshots/Pasted image 20250714092342.png",
