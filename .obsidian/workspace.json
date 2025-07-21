@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "034475594228cab4",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "f7857e2fbdace096",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-cloud-infrastructure/aws/haytsec-aws-plan.md",
+                "file": "99-personal-logs/2025-07-20-daily.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "haytsec-aws-plan"
+              "title": "2025-07-20-daily"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#aws/account-setup",
+                "query": "tag:#ospf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -167,53 +167,53 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "f7857e2fbdace096",
   "lastOpenFiles": [
-    "01-cloud-infrastructure/aws/phase-0-primer.md",
-    "01-cloud-infrastructure/aws/haytsec-aws-plan.md",
-    "phase-0-primer/phase-0-primer.md",
+    "99-personal-logs/2025-07-20-scratchpad.md",
+    "99-personal-logs/2025-07-20-todo.md",
+    "99-personal-logs/2025-07-20-daily.md",
+    "05-certification-notes/02-network+/05-lesson/5.2-dynamic-routing-technologies/5.2.1-dynamic-routing-protocols.md",
+    "05-certification-notes/02-network+/05-lesson/5.1-routing-technologies/5.1.11-lesson-review.md",
+    "05-certification-notes/02-network+/05-lesson/5.2-dynamic-routing-technologies",
+    "05-certification-notes/02-network+/05-lesson/5.1-routing-technologies/5.1.1-routing-tables-path-selection.md",
+    "05-certification-notes/02-network+/05-lesson/5.1-routing-technologies",
+    "05-certification-notes/02-network+/05-lesson/5.1-routing-technologies.md",
+    "100-archive/screenshot-png-leftover/networking+/5.1.11-lesson-review.png",
+    "05-certification-notes/02-network+/05-lesson/5.1-routing-technologies/5.1.10-lab-cisco-troubleshooting-tools.md",
+    "05-certification-notes/02-network+/05-lesson/5.1-routing-technologies/5.1.9-lab-install-enterprise-router.md",
+    "05-certification-notes/02-network+/05-lesson/5.1-routing-technologies/5.1.8-tracert-traceroute.md",
+    "05-certification-notes/02-network+/05-lesson/5.1-routing-technologies/5.1.7-routing-table-tools.md",
+    "05-certification-notes/02-network+/05-lesson/5.1-routing-technologies/5.1.6-router-configuration.md",
+    "05-certification-notes/02-network+/05-lesson/5.1-routing-technologies/5.1.5-fragmentation.md",
+    "05-certification-notes/02-network+/05-lesson/5.1-routing-technologies/5.1.4-packet-forwarding.md",
+    "05-certification-notes/02-network+/05-lesson/5.1-routing-technologies/5.1.3-routing-table-example.md",
+    "05-certification-notes/02-network+/05-lesson/5.1-routing-technologies/5.1.2-static-and-default-routes.md",
+    "05-certification-notes/02-network+/04-lesson/4.6-ip-troubleshooting/4.6.9-lesson-review.md",
+    "05-certification-notes/02-network+/05-lesson",
+    "05-certification-notes/02-network+/04-lesson/4.6-ip-troubleshooting/4.6.8-lab-assisted-troubleshooting3.md",
+    "05-certification-notes/02-network+/04-lesson/4.6-ip-troubleshooting/4.6.7-lab-assisted-troubleshooting2.md",
+    "05-certification-notes/02-network+/04-lesson/4.6-ip-troubleshooting/4.6.6-lab-assisted-troubleshooting1.md",
+    "05-certification-notes/02-network+/04-lesson/4.6-ip-troubleshooting/4.6.5-lab-using-ping-traceroute-linux.md",
+    "05-certification-notes/02-network+/04-lesson/4.6-ip-troubleshooting/4.6.4-lab-use-ping-tracert-windows.md",
+    "05-certification-notes/02-network+/04-lesson/4.6-ip-troubleshooting/4.6.3-ip-forwarding-issues.md",
+    "05-certification-notes/02-network+/04-lesson/4.6-ip-troubleshooting/4.6.2-duplicate-ip-mac-address-issues.md",
+    "05-certification-notes/02-network+/04-lesson/4.6-ip-troubleshooting/4.6.1-ip-configuration-issues.md",
+    "05-certification-notes/02-network+/04-lesson/4.5-ip-version6/4.5.2-ipv6-address-format.md",
+    "05-certification-notes/02-network+/04-lesson/4.6-ip-troubleshooting",
+    "100-archive/screenshot-png-leftover/networking+",
+    "100-archive/screenshot-png-leftover/networking+/ipv4-ipv6-addresses-same-adapter.png",
     "phase-0-primer",
-    "01-cloud-infrastructure/aws/phase-6-monitoring.md",
-    "01-cloud-infrastructure/aws/phase-5-storage.md",
-    "01-cloud-infrastructure/aws/phase-4-compute.md",
-    "01-cloud-infrastructure/aws/phase-3-security.md",
-    "01-cloud-infrastructure/aws/phase-2-networking.md",
-    "01-cloud-infrastructure/aws/phase-1-account.md",
-    "99-personal-logs/2025-07-19-daily.md",
-    "00-about/haytsec-mission.md",
-    "99-personal-logs/2025-07-19-todo.md",
-    "99-personal-logs/2025-07-19-scratchpad.md",
-    "01-cloud-infrastructure/aws/docs/billing.md",
-    "00-about/tags.md",
     "100-archive/screenshot-png-leftover/aws/2025-07-20-billing-summary.png",
-    "01-cloud-infrastructure/aws/screenshots-audit/2025-07-20-payment-method.md",
     "100-archive/screenshot-png-leftover/aws/2025-07-20-payment-method.png",
-    "01-cloud-infrastructure/aws/screenshots-audit/2025-07-20-free-tier-usage.md",
     "100-archive/screenshot-png-leftover/aws/2025-07-20-free-tiers-usage.png",
-    "01-cloud-infrastructure/aws/screenshots-audit/2025-07-billing-summary.md",
     "01-cloud-infrastructure/aws/screenshots-audit/2025-07-20-cost-management-global.png",
     "100-archive/screenshot-png-leftover/aws",
     "100-archive/screenshot-png-leftover",
-    "01-cloud-infrastructure/aws/screenshots/2025-07-20-billing-cost-summary.md",
     "01-cloud-infrastructure/aws/screenshots-audit",
     "01-cloud-infrastructure/aws/screenshots/2025-07-20-billing-and-cost-management-global.png",
-    "01-cloud-infrastructure/aws/screenshots/2025-07-20-billing-dashboard-zero-usage.md",
     "Screenshot 2025-07-20 at 01-21-43 Bills Billing and Cost Management Global.png",
     "01-cloud-infrastructure/aws/screenshots-audit",
-    "00-about/mr.hayt-bio.md",
-    "01-cloud-infrastructure/aws/docs",
-    "01-cloud-infrastructure/aws/common",
-    "01-cloud-infrastructure/aws/docs.md",
-    "01-cloud-infrastructure/aws/common.md",
-    "01-cloud-infrastructure/aws/iac",
-    "01-cloud-infrastructure/aws",
-    "01-cloud-infrastructure/aws-setup.md",
-    "05-certification-notes/02-network+/04_lesson/general-notes-practice-memorize/subnetting-drill-routine.md",
-    "05-certification-notes/02-network+/04_lesson/general-notes-practice-memorize",
-    "05-certification-notes/02-network+/04_lesson/general-notes-practice-memorize/what-is-broadcast.md",
     "05-certification-notes/02-network+/networking+screenshots/lesson-04-Screenshots/Pasted image 20250715002327.png",
-    "05-certification-notes/02-network+/networking+screenshots/lesson-04-Screenshots/Pasted image 20250714092942.png",
-    "05-certification-notes/02-network+/networking+screenshots/lesson-04-Screenshots/Pasted image 20250714092342.png",
-    "05-certification-notes/02-network+/networking+screenshots/lesson-04-Screenshots/Pasted image 20250714092306.png"
+    "05-certification-notes/02-network+/networking+screenshots/lesson-04-Screenshots/Pasted image 20250714092942.png"
   ]
 }

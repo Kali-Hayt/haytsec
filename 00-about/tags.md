@@ -19,3 +19,4 @@
 
 - `#audit/screenshot` — Use for notes that include or reference screenshots for auditing or compliance.
 - `#aws/billing-screenshot` — Optional, more specific tag if you're organizing screenshots *only* related to AWS billing settings.
+
