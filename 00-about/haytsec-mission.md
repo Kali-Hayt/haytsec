@@ -14,7 +14,7 @@ From cloud builds to compliance policies, HaytSec is where theory becomes system
 
 > **To architect secure systems from scratch, simulate enterprise-grade infrastructure, and automate defensive strategy — all while documenting everything.**
 
-HaytSec is built on the belief that cybersecurity is *practical*. That you learn more by deploying a hardened cloud environment than by reading about it. That if you want to understand the threat landscape, you need to walk in it.
+HaytSec is built on the belief that cybersecurity is _practical_. That you learn more by deploying a hardened cloud environment than by reading about it. That if you want to understand the threat landscape, you need to walk in it.
 
 This project is not a lab. It's a long-term simulation of a company in the making — with standards, automation, structure, and strategy.
 
@@ -22,21 +22,19 @@ This project is not a lab. It's a long-term simulation of a company in the makin
 
 ### 💡 Principles
 
-- **Security is an architecture problem**  
-- **Documentation is a form of defense**  
-- **Tools should be self-explaining and self-healing**  
-- **Good ops are boring, but good failures teach fast**  
+- **Security is an architecture problem**
+- **Documentation is a form of defense**
+- **Tools should be self-explaining and self-healing**
+- **Good ops are boring, but good failures teach fast**
 - **Learn by doing. Share by documenting. Improve by breaking.**
 
 ---
 
 ### ✅ What You’ll Find Inside
 
-- Cloud infrastructure blueprints (AWS-first)  
-- Security baselines and custom standards  
-- Scripts for automation and configuration  
-- Structured certification notes (Network+, Cloud+, etc.)  
-- Internal knowledge base with glossaries, flashcards, and quiz reviews  
+- Cloud infrastructure blueprints (AWS-first)
+- Security baselines and custom standards
+- Scripts for automation and configuration
+- Structured certification notes (Network+, Cloud+, etc.)
+- Internal knowledge base with glossaries, flashcards, and quiz reviews
 - Markdown-heavy documentation for every system, tool, and decision
-
-
