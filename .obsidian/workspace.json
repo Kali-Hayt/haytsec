@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "896a67bd757c58a3",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "a95da00690b82350",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02-security-standards/identity-and-access.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "identity-and-access"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#cloud-plus/lesson-10",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -163,38 +167,38 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9cd66588634574f1",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "100-archive/2025-07-personal-log/2025-07-24-daily.md",
-    "99-personal-logs/2025-07-25-daily.md",
-    "05-certification-notes/01-cloud+/lesson-10/discussion-board-cloud-green-dilemma.md",
-    "05-certification-notes/01-cloud+/lesson-10/flashcard.md",
-    "05-certification-notes/01-cloud+/lesson-10/quiz-note.md",
-    "05-certification-notes/01-cloud+/lesson-10/glossary.md",
-    "05-certification-notes/01-cloud+/lesson-10/notes/10.4-summary.md",
-    "05-certification-notes/01-cloud+/lesson-10/notes/10.3-troubleshooting-methodology.md",
-    "05-certification-notes/01-cloud+/lesson-10/notes/10.2-troubleshooting-security-issues.md",
-    "05-certification-notes/01-cloud+/lesson-10/notes/10.1-troubleshooting-cloud-networking-issues.md",
-    "05-certification-notes/01-cloud+/lesson-09/flashcard.md",
-    "05-certification-notes/01-cloud+/lesson-09/glossary.md",
-    "05-certification-notes/01-cloud+/lesson-09/quiz-note.md",
-    "05-certification-notes/01-cloud+/lesson-09/notes/9.5-summary.md",
-    "05-certification-notes/01-cloud+/lesson-09/notes/9.4-misconfigurations.md",
-    "05-certification-notes/01-cloud+/lesson-09/notes/9.3-troubleshooting-automation-and-orchestration.md",
-    "05-certification-notes/01-cloud+/lesson-09/notes/9.2-troubleshooting-cloud-capacity-issues.md",
-    "05-certification-notes/01-cloud+/lesson-09/notes/9.1-incident-managment.md",
+    "01-cloud-infrastructure/aws/phase-1-next-actions.md",
+    "01-cloud-infrastructure/aws/phase-1-account.md",
+    "01-cloud-infrastructure/aws/phase-0-primer.md",
+    "01-cloud-infrastructure/aws/haytsec-aws-plan.md",
+    "98-system-logs/98-system-log-2025-07-26-reminders.md",
+    "98-system-logs/2025-07-26-iam-cli-setup.md",
+    "01-cloud-infrastructure/aws/screenshots/README.md",
+    "01-cloud-infrastructure/aws/phase-6-monitoring.md",
+    "01-cloud-infrastructure/aws/phase-5-storage.md",
+    "01-cloud-infrastructure/aws/phase-4-compute.md",
+    "01-cloud-infrastructure/aws/phase-3-security.md",
+    "01-cloud-infrastructure/aws/phase-2-networking.md",
+    "phase‑1‑next‑actions.md",
+    "phase‑1‑account.md",
+    "01-cloud-infrastructure/aws/haytsec-aws-plan (1).md",
+    "02-security-standards/identity-and-access.md",
+    "identity-and-access.md",
+    "100-archive/identity-and-access.md",
+    "Untitled.md",
+    "01-cloud-infrastructure/aws/phase-0-primer (1).md",
+    "03-automation-scripts/todo.md",
+    "01-cloud-infrastructure/aws/phase-1-next-actions (1).md",
+    "01-cloud-infrastructure/aws/docs/billing.md",
+    "01-cloud-infrastructure/aws/screenshots/2025-07-26-cost-explorer-cli.md",
+    "01-cloud-infrastructure/aws/screenshots/2025-07-20-free-tier-usage.md",
+    "02-security-standards/identity-and-access (1).md",
     "05-certification-notes/01-cloud+/lesson-09/notes",
-    "05-certification-notes/01-cloud+/lesson-09/notes.md",
     "05-certification-notes/01-cloud+/lesson-10/notes",
     "05-certification-notes/01-cloud+/lesson-10",
     "05-certification-notes/01-cloud+/lesson-09",
-    "100-archive/2025-07-personal-log/2025-07-23-daily.md",
-    "99-personal-logs/2025-07-24-scratchpad.md",
-    "05-certification-notes/02-network+/06-lesson/6.4-dchp-relay-and-troubleshooting/6.4.8-lab-troubleshoot-ip-configuration1.md",
-    "05-certification-notes/02-network+/06-lesson/6.4-dchp-relay-and-troubleshooting/6.4.7-lab-explore-dchp-troubleshooting.md",
-    "05-certification-notes/02-network+/06-lesson/6.4-dchp-relay-and-troubleshooting/6.4.6-lab-troubleshoot-address-pool-exhaustion.md",
-    "05-certification-notes/02-network+/06-lesson/6.4-dchp-relay-and-troubleshooting/6.4.5-add-dchp-server-on-another-subnet.md",
-    "05-certification-notes/02-network+/06-lesson/6.4-dchp-relay-and-troubleshooting/6.4.4-lab-configure-dchp-relay-agent.md",
     "05-certification-notes/02-network+/06-lesson/6.4-dchp-relay-and-troubleshooting",
     "05-certification-notes/02-network+/06-lesson/6.3-apipa-and-slaac",
     "05-certification-notes/02-network+/06-lesson/6.1-transport-and-application-layer-protocol",

@@ -16,10 +16,16 @@ This document captures the current state of billing configurations for the HaytS
 
 ---
 
-## ❌ Cost Explorer (Not Yet Enabled)
+## ✅ Cost Explorer
 
-- 💡 Cost Explorer helps visualize spending across services and time.
-- 📆 Recommendation: Enable once first few services (e.g., EC2, S3) are in use.
+- 📅 Enabled on: July 26, 2025
+- 📊 Current Spend: $0.00
+- 🔄 Will update after 24 hours of usage tracking
+- 🧪 Will use this for:
+  - Visualizing EC2/S3/NAT charges
+  - Testing budget alerts
+  - Verifying free-tier usage
+
 
 ---
 
@@ -39,10 +45,11 @@ This document captures the current state of billing configurations for the HaytS
 
 - [x] Budget Alert — alert created ($1.00 zero-spend)
 - [x] Billing Summary — ✅ screenshot saved
-- [ ] Cost Explorer — ❌ still initializing (24-hour wait)
+- [x] Cost Explorer — ✅ enabled (July 26, 2025)
 - [x] Free Tier page — ✅ screenshot saved
 - [x] Payment Method — ✅ screenshot saved
-- [ ] MFA on Root — ❌ not yet enabled
+- [x] MFA on Root — ✅ passkey registered (July 26, 2025)
+
 
 ---
 

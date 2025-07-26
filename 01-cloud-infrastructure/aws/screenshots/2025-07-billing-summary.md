@@ -1,4 +1,12 @@
-
+---
+tags: [#billing, #audit/screenshot, #phase/1, #env/bootstrap]
+title: Billing Dashboard Summary
+created: 2025-07-20
+created-by: root
+related-phase: 1
+linked-from: phase-1-account.md
+summary: Captures AWS billing summary immediately after account initialization.
+---
 
 Tags: #aws/billing #screenshot/audit #phase-1 #free-tier #haytsec/docs
 

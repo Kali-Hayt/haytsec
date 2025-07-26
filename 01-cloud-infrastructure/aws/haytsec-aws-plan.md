@@ -1,141 +1,90 @@
-# ☁️ HaytSec AWS Infrastructure Plan
+# HaytSec AWS Infrastructure Plan
+#haytsec #aws #plan #phases #cloud-infra
 
-This document defines the complete AWS build lifecycle for HaytSec.  
-Each phase matches a vault folder under `01-cloud-infrastructure/aws/`.  
-All phases emphasize hardened security, automation potential, and long-term auditability.
-
-> 🔒 “Build deliberately. Harden everything. Automate where it hurts.” — Mr. Hayt
+## Overview
+This plan outlines the phased buildout of HaytSec’s secure AWS cloud infrastructure. Each phase represents a milestone with goals, outputs, and documentation.
 
 ---
 
-## 🧰 Phase 0 – Primer & Tooling
+## Phase 0 – Primer & Systems Prep
+✅ Local tools ready (CLI, git, GPG, MFA apps)  
+✅ Account strategy and region policy defined  
+✅ Obsidian vault structured and synced
 
-📂 Folder: [`./phase-0-primer/`](./phase-0-primer/)
-
-- Define architecture goals and training intent
-- Set regions: `us-west-2` primary, `us-east-1` for global
-- Prep local systems (CLI, secrets, MFA, vault structure)
-- Decide on account design and IAM admin names
-- Setup tagging conventions and vault structure
-- 🔗 Related: [`docs/billing/`](./docs/billing/), `iac/README.md` (future)
+🔗 Related: `phase-0-primer.md`
 
 ---
 
-## 🛫 Phase 1 – Account & Billing Foundation
+## Phase 1 – Account & Billing Foundation
+✅ Root MFA + email lock  
+✅ Budget alert at $1.00 cap  
+✅ Cost Explorer enabled (via console + CLI)  
+✅ IAM admin created (`haytsec-admin`) with MFA  
+✅ CLI configured and tested (Kali-Hayt)  
+🧭 Region selected: us-west-2 (CLI + console aligned)  
+🔒 Root account locked for daily use
 
-📂 Folder: [`./phase-1-account/`](./phase-1-account/)  
-📸 Audit: [`./screenshots-audit/`](./screenshots-audit/)  
-📑 Docs: [`./docs/billing/`](./docs/billing/)
-
-- Root MFA + email lock
-- Budget alert at $1.00 cap
-- Billing alarm notifications
-- Enable Cost Explorer + usage reports
-- Begin AWS Organizations & SCP exploration (future)
-
----
-
-## 🌐 Phase 2 – Networking Foundation
-
-📂 Folder: [`./phase-2-networking/`](./phase-2-networking/)
-
-- VPC creation with CIDR split
-- Subnets: public vs. private
-- Route tables per zone
-- IGW + NAT Gateway
-- Elastic IPs, DHCP, DNS options
-- Network ACLs vs. SGs planning
+- [[aws/phase-1-account]]
+- [[security-standards/identity-and-access]]
+- [[aws/phase-1-next-actions]]
+- [[system-logs/2025-07-26-iam-cli-setup]]
 
 ---
 
-## 🔐 Phase 3 – IAM & Security Services
+## Phase 2 – Networking & Zones
+🚧 Define core VPC layout (single-region)  
+🚧 Public/private subnet strategy  
+🚧 NACLs vs SGs baseline  
+🚧 Route tables and IGW/NAT
 
-📂 Folder: [`./phase-3-security/`](./phase-3-security/)
-
-- IAM groups: Admin, Automation, Audit
-- Roles and policies with least privilege
-- Enforce MFA and session duration
-- CloudTrail global trail + log bucket
-- AWS Config + resource recorder
-- KMS key setup (S3, EBS encryption)
-- Secrets Manager usage patterns
-- SCP policy drafts (if org used)
+🔗 Future: `phase-2-networking.md`
 
 ---
 
-## 🖥️ Phase 4 – Compute Layer
+## Phase 3 – Identity & Access Hardening
+🚧 Create roles, groups, policies for least privilege  
+🚧 Start automation for access key rotation  
+🚧 Enable CloudTrail logging + config rules
 
-📂 Folder: [`./phase-4-compute/`](./phase-4-compute/)
-
-- Hardened AMIs (public or custom)
-- Launch templates for EC2
-- Bastion host with IP restrictions
-- Security Group templates per tier
-- Auto scaling group prototypes
-- Cloud-init or bootstrap scripts
-- Compute tagging conventions
+🔗 Future: `phase-3-security.md`
 
 ---
 
-## 📦 Phase 5 – Storage Architecture
+## Phase 4 – Compute & Services
+🚧 Test EC2 launch in private subnet  
+🚧 Begin automation / shell access via SSM  
+🚧 ECS container preview
 
-📂 Folder: [`./phase-5-storage/`](./phase-5-storage/)
-
-- S3 versioning, encryption (SSE-KMS)
-- Bucket policies and ACL lockdown
-- Lifecycle rules: IA, Glacier, delete
-- Block public access (org level + bucket)
-- Storage logging (CloudTrail, S3 access logs)
-- Early research: EFS, RDS, Backups
+🔗 Future: `phase-4-compute.md`
 
 ---
 
-## 📊 Phase 6 – Monitoring & Audit Stack
+## Phase 5 – Storage & Data Controls
+🚧 S3 bucket policies + versioning  
+🚧 Encrypt by default (KMS)  
+🚧 IAM + bucket ACL governance
 
-📂 Folder: [`./phase-6-monitoring/`](./phase-6-monitoring/)
-
-- CloudTrail across all regions
-- CloudWatch logs, alarms, metrics
-- CloudWatch dashboards
-- AWS Config rules (custom + managed)
-- Enable:
-  - GuardDuty
-  - Security Hub
-  - AWS Inspector
-- Trusted Advisor audit script
+🔗 Future: `phase-5-storage.md`
 
 ---
 
-## 🛠️ Infrastructure-as-Code (IaC)
+## Phase 6 – Monitoring & Alerts
+🚧 CloudWatch alarms + budget triggers  
+🚧 GuardDuty, Config, Security Hub trial  
+🚧 First threat detection scenario
 
-📂 Folder: [`./iac/`](./iac/)
-
-- Terraform module layout
-- Phase-based module execution
-- State file handling plan
-- Secrets strategy (env vars, tfvars, encrypted files)
-- Runbooks: `plan`, `apply`, `destroy`
-- Future: GitHub Actions or Lambda for CICD
+🔗 Future: `phase-6-monitoring.md`
 
 ---
 
-## 🧾 Supporting Docs
-
-📂 Docs: [`./docs/`](./docs/)  
-📸 Screenshots: [`./screenshots-audit/`](./screenshots-audit/)
-
-- Markdown-based guides per service
-- SCP templates and policy references
-- IAM strategy docs
-- Diagrams (draw.io, lucidchart exports)
-- Playbooks for red/blue team, hardening checklists
+## Long-Term Tracks
+- IaC: Terraform or CDK integration  
+- Multi-account via AWS Organizations  
+- Incident simulation + automated response  
+- External logging to SIEM  
+- Compliance mapping (NIST, CIS, SOC2-lite)
 
 ---
 
-## 📌 Tags
-
-`#haytsec` `#aws` `#cloud` `#build-plan` `#phase-map`
-
----
-
-🔗 Return to: [`Phase 0 Primer`](./phase-0-primer.md)
+## Tags
+#aws-plan #haytsec #infrastructure #phases #todo
