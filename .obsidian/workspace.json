@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-cloud-infrastructure/aws/screenshots/README.md",
+                "file": "99-personal-logs/2025-07-27-daily.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "2025-07-27-daily"
             }
           }
         ]
@@ -169,6 +169,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "01-cloud-infrastructure/aws/screenshots/README.md",
     "05-certification-notes/01-cloud+/exam-prep-certificate.png",
     "02-security-standards/identity-and-access.md",
     "01-cloud-infrastructure/cloudtrail-setup.md.md",
