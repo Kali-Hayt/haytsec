@@ -41,17 +41,40 @@ This document captures the current state of billing configurations for the HaytS
 
 ---
 
-## ✅ Billing Audit Checklist Status
+## ✅ Billing Audit Checklist
 
-- [x] Budget Alert — alert created ($1.00 zero-spend)
-- [x] Billing Summary — ✅ screenshot saved
-- [x] Cost Explorer — ✅ enabled (July 26, 2025)
-- [x] Free Tier page — ✅ screenshot saved
-- [x] Payment Method — ✅ screenshot saved
-- [x] MFA on Root — ✅ passkey registered (July 26, 2025)
+- ✅ Budget Alert — alert created ($1.00 zero-spend)
+- ✅ Billing Summary — screenshot saved
+- ✅ Cost Explorer — enabled (July 26, 2025)
+- ✅ Free Tier page — screenshot saved
+- ✅ Payment Method — screenshot saved
+- ✅ MFA on Root — passkey registered (July 26, 2025)
+- ✅ Monthly Report — activated (legacy CSV)
+- ✅ Cost Allocation Report — activated
 
 
 ---
+## 🔐 IAM Billing Access
+
+- [2025-07-27] Enabled IAM user access to billing dashboard (configured from root)
+- Verified that `haytsec-admin` can access Billing, Budgets, and Cost Explorer
+- This allows non-root IAM users to manage budgets and reports during normal operations
+---
+## 📦 S3 Billing Logs
+
+- [2025-07-27] Created dedicated bucket `haytsec-billing-logs` (region: `us-west-2`)
+- Verified bucket accessibility with `aws-programmatic-access-test-object`
+- Enabled legacy monthly and cost allocation reports
+- Applied default bucket policy for `billingreports.amazonaws.com`
+- AWS will begin delivering CSV logs starting **next billing cycle**
+- 📸 See monthly delivery logs: `HaytSec/98-system-logs/aws-billing-screenshots/YYYY-MM`
+
+✅ Billing logs pipeline configured  
+⬜ Monitor for first CSV delivery
+
+---
+
+
 
 ## Tags
 

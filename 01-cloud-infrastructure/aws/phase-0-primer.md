@@ -5,13 +5,12 @@ This primer documents the tools and environment setup for HaytSec prior to launc
 ---
 
 ## 🛠️ Tools Installed
-
-- [x] `awscli` (AWS CLI v2) – configured for `haytsec-admin` on Kali-Hayt  
-- [x] `curl`, `wget`, `jq` – basic network tools for CLI + JSON  
-- [x] `git` – version control for docs and scripts  
+- ✅ `awscli` (AWS CLI v2) – configured for `haytsec-admin` on Kali-Hayt  
+- ✅ `curl`, `wget`, `jq` – basic network tools for CLI + JSON  
+- ✅ `git` – version control for docs and scripts  
 - [ ] GPG + file encryption tools for secure secret storage  
-- [x] Obsidian – `.md` vault for documentation  
-- [x] MFA app – iOS Authenticator (Google/Apple)  
+- ✅ Obsidian – `.md` vault for documentation  
+- ✅ MFA app – iOS Authenticator (Google/Apple)  
 
 ---
 

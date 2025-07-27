@@ -7,18 +7,17 @@
 
 ## ✅ Completed
 
-- [x] Enable MFA for `haytsec-admin` #security #reminder
-- [x] Bookmark Console URL with `us-west-2` region selected #region #ux
-- [x] Tag cost explorer screenshot file properly #billing #documentation
-- [x] Create budget alert (optional for Phase 1) #billing #cost-control
-
+- ✅ Enable MFA for `haytsec-admin` #security #reminder
+- ✅ Bookmark Console URL with `us-west-2` region selected #region #ux
+- ✅ Tag cost explorer screenshot file properly #billing #documentation
+- ✅ Create budget alert (optional for Phase 1) #billing #cost-control
 ---
 
 ## 🕒 Outstanding Tasks
 
-- [ ] Create `haytsec-auditor` IAM user with `ReadOnlyAccess` #identity #reminder
-- [ ] Add AWS region diagram or long-term strategy note #region #idea
-- [ ] Review if temporary `AdministratorAccess` should be reduced later #security #policy
+- ☐ Create `haytsec-auditor` IAM user with `ReadOnlyAccess` #identity #reminder  
+- ☐ Add AWS region diagram or long-term strategy note #region #idea  
+- ☐ Review if temporary `AdministratorAccess` should be reduced later #security #policy  
 
 ---
 
