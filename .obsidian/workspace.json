@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "104543b4e7989dd5",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "ee9da1f6939b7a23",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "99-personal-logs/2025-07-27-daily.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-07-27-daily"
+              "title": "New tab"
             }
           }
         ]
@@ -167,16 +163,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "9cd66588634574f1",
   "lastOpenFiles": [
-    "01-cloud-infrastructure/aws/screenshots/README.md",
-    "05-certification-notes/01-cloud+/exam-prep-certificate.png",
+    "99-personal-logs/2025-07-27-daily.md",
+    "2025-07-28-daily.md",
+    "97-scripting-lab",
     "02-security-standards/identity-and-access.md",
-    "01-cloud-infrastructure/cloudtrail-setup.md.md",
+    "01-cloud-infrastructure/aws/phase-3-security.md",
+    "01-cloud-infrastructure/aws/phase-2-networking.md",
     "01-cloud-infrastructure/aws/phase-1-next-actions.md",
     "01-cloud-infrastructure/aws/phase-1-account.md",
     "01-cloud-infrastructure/aws/phase-0-primer.md",
+    "00-about/mr.hayt-bio.md",
+    "00-about/haytsec-mission.md",
     "01-cloud-infrastructure/aws/haytsec-aws-plan.md",
+    "01-cloud-infrastructure/aws/screenshots/README.md",
+    "05-certification-notes/01-cloud+/exam-prep-certificate.png",
+    "01-cloud-infrastructure/cloudtrail-setup.md.md",
     "100-archive/screenshot-png-leftover/aws/2025-07-20-billing-summary.png",
     "100-archive/screenshot-png-leftover/aws/2025-07-20-free-tiers-usage.png",
     "100-archive/screenshot-png-leftover/aws/2025-07-20-payment-method.png",
@@ -185,14 +188,9 @@
     "01-cloud-infrastructure/aws/phase-6-monitoring.md",
     "01-cloud-infrastructure/aws/docs/billing (1).md",
     "98-system-logs/98-system-log-2025-07-26-reminders.md",
-    "01-cloud-infrastructure/aws/phase-2-networking.md",
-    "01-cloud-infrastructure/aws/phase-3-security.md",
     "98-system-logs/2025-07-26-iam-cli-setup.md",
     "03-automation-scripts/todo.md",
     "00-about/tags.md",
-    "00-about/mr.hayt-bio.md",
-    "00-about/haytsec-mission.md",
-    "99-personal-logs/2025-07-27-daily.md",
     "99-personal-logs/2025-07-27-scratchpad.md",
     "100-archive/2025-07-personal-log/2025-07-26-daily.md",
     "05-certification-notes/01-cloud+/cloudplus-practice-exam/cloudplus-exam-review1.md",
@@ -200,7 +198,6 @@
     "05-certification-notes/01-cloud+/cloudplus-practice-exam/~$oudplus-exam-review1.md",
     "05-certification-notes/01-cloud+/Cert.md",
     "05-certification-notes/01-cloud+/cloudplus-practice-exam",
-    "05-certification-notes/01-cloud+/lesson-10/discussion-board-cloud-green-dilemma.md",
     "05-certification-notes/01-cloud+/lesson-09/notes",
     "05-certification-notes/01-cloud+/lesson-10/notes",
     "05-certification-notes/01-cloud+/lesson-10",
@@ -209,7 +206,6 @@
     "05-certification-notes/02-network+/06-lesson/6.3-apipa-and-slaac",
     "05-certification-notes/02-network+/06-lesson/6.1-transport-and-application-layer-protocol",
     "05-certification-notes/02-network+/06-lesson/6.2-dynamic-host-configuration-protocol",
-    "05-certification-notes/02-network+/06-lesson",
     "100-archive/screenshot-png-leftover/networking+/5.3.1-edge-router2.png",
     "100-archive/screenshot-png-leftover/networking+/5.3.1-edge-router1.png",
     "100-archive/screenshot-png-leftover/networking+/5.2.4-open-shortest-path-first.png",
