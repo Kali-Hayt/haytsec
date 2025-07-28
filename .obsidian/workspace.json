@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "104543b4e7989dd5",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "ee9da1f6939b7a23",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01-cloud-infrastructure/aws/screenshots/README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "README"
             }
           }
         ]
@@ -163,10 +167,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9cd66588634574f1",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "99-personal-logs/2025-07-27-daily.md",
-    "2025-07-28-daily.md",
+    "99-personal-logs/2025-07-28-scratchpad.md",
+    "99-personal-logs/2025-07-28-daily.md",
+    "100-archive/2025-07-personal-log/2025-07-27-daily.md",
+    "01-cloud-infrastructure/aws/screenshots/README.md",
     "97-scripting-lab",
     "02-security-standards/identity-and-access.md",
     "01-cloud-infrastructure/aws/phase-3-security.md",
@@ -177,7 +183,6 @@
     "00-about/mr.hayt-bio.md",
     "00-about/haytsec-mission.md",
     "01-cloud-infrastructure/aws/haytsec-aws-plan.md",
-    "01-cloud-infrastructure/aws/screenshots/README.md",
     "05-certification-notes/01-cloud+/exam-prep-certificate.png",
     "01-cloud-infrastructure/cloudtrail-setup.md.md",
     "100-archive/screenshot-png-leftover/aws/2025-07-20-billing-summary.png",
@@ -191,7 +196,6 @@
     "98-system-logs/2025-07-26-iam-cli-setup.md",
     "03-automation-scripts/todo.md",
     "00-about/tags.md",
-    "99-personal-logs/2025-07-27-scratchpad.md",
     "100-archive/2025-07-personal-log/2025-07-26-daily.md",
     "05-certification-notes/01-cloud+/cloudplus-practice-exam/cloudplus-exam-review1.md",
     "05-certification-notes/01-cloud+/cloudplus-practice-exam/cloudplus-exam-review1 (1).md",
