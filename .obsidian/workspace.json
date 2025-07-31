@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-archive/2025-07-personal-log/2025-07-29-daily.md",
+                "file": "99-personal-logs/2025-07-31-daily.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-29-daily"
-            }
-          },
-          {
-            "id": "24f8f1c32bb747d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "99-personal-logs/2025-07-30-daily.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-07-30-daily"
+              "title": "2025-07-31-daily"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,36 +167,40 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9cd66588634574f1",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "99-personal-logs/2025-07-29-scratchpad.md",
-    "99-personal-logs/2025-07-30-daily.md",
-    "100-archive/2025-07-personal-log/2025-07-29-daily.md",
-    "05-certification-notes/02-network+/06-lesson/6.5-domain-name-system/6.5.13-lab-create-host-records.md",
-    "05-certification-notes/02-network+/06-lesson/6.5-domain-name-system/6.5.12-lab-create-standard-dns-zones.md",
-    "05-certification-notes/02-network+/06-lesson/6.5-domain-name-system/6.5.11-lab-configure-dns-addresses.md",
     "01-cloud-infrastructure/aws/screenshots/README.md",
-    "100-archive/2025-07-personal-log/2025-07-22-daily.md",
-    "100-archive/2025-07-personal-log/2025-07-28-daily.md",
-    "05-certification-notes/02-network+/06-lesson/6.5-domain-name-system/6.5.10-dns-security.md",
-    "05-certification-notes/02-network+/06-lesson/6.5-domain-name-system/6.5.9-internal-vs-external-dns.md",
-    "05-certification-notes/02-network+/06-lesson/6.5-domain-name-system/6.5.8-dns-server-configuration.md",
-    "05-certification-notes/02-network+/06-lesson/6.5-domain-name-system/6.5.7-pointer-records.md",
-    "05-certification-notes/02-network+/06-lesson/6.5-domain-name-system/6.5.4-6.5.6-examples.md",
-    "05-certification-notes/02-network+/06-lesson/6.5-domain-name-system/6.5.3-name-resolution-using-dns.md",
-    "05-certification-notes/02-network+/06-lesson/6.5-domain-name-system/6.5.2-dns-hierarchy.md",
-    "05-certification-notes/02-network+/06-lesson/6.5-domain-name-system/6.5.4-resource-record-types.md",
-    "05-certification-notes/02-network+/06-lesson/6.5-domain-name-system/6.5.5-host-address-and-canonical-name-records.md",
-    "05-certification-notes/02-network+/06-lesson/6.5-domain-name-system/6.5.6-mail-exchange-service-and-text-records.md",
-    "05-certification-notes/02-network+/06-lesson/6.5-domain-name-system/6.5.1-host-names-and-domain-names.md",
-    "05-certification-notes/02-network+/06-lesson/6.4-dchp-relay-and-troubleshooting/6.4.10-lab-troubleshoot-ip-configuration-3.md",
+    "99-personal-logs/2025-07-31-scratchpad.md",
+    "100-archive/2025-07-personal-log/2025-07-30-daily.md",
+    "99-personal-logs/2025-07-31-daily.md",
+    "05-certification-notes/02-network+/07-Lesson/7.2-web-file-print-and-database-services/7.2.8-lab-scan-for-web-services-with-nmap.md",
+    "05-certification-notes/02-network+/07-Lesson/7.2-web-file-print-and-database-services/7.2.7-database-services.md",
+    "05-certification-notes/02-network+/07-Lesson/7.2-web-file-print-and-database-services/7.2.6-network-attached-storage.md",
+    "05-certification-notes/02-network+/07-Lesson/7.2-web-file-print-and-database-services/7.2.5-server-message-block.md",
+    "05-certification-notes/02-network+/07-Lesson/7.2-web-file-print-and-database-services/7.2.4-secure-file-transfer-protocol.md",
+    "05-certification-notes/02-network+/07-Lesson/7.2-web-file-print-and-database-services/7.2.3-file-transfer-protocol.md",
+    "05-certification-notes/02-network+/07-Lesson/7.2-web-file-print-and-database-services/7.2.2-http-secure.md",
+    "05-certification-notes/02-network+/07-Lesson/7.2-web-file-print-and-database-services/7.2.1-hyper-text-transfer-protocol.md",
+    "05-certification-notes/02-network+/07-Lesson/7.1-application-security-and-time-synchronization/7.1.4-lab-configure-ntp-on-linux.md",
+    "05-certification-notes/02-network+/07-Lesson/7.2-web-file-print-and-database-services",
+    "05-certification-notes/02-network+/07-Lesson/7.1-application-security-and-time-synchronization/7.1.1-transport-layer-security.md",
+    "05-certification-notes/02-network+/07-Lesson/7.1-application-security-and-time-synchronization",
+    "05-certification-notes/02-network+/07-Lesson/7.1-application-security-and-time-synchronization/7.1.3-precision-time-protocol.md",
+    "05-certification-notes/02-network+/07-Lesson/7.1-application-security-and-time-synchronization/7.1.2-network-time-protocol.md",
+    "05-certification-notes/02-network+/06-lesson/6.6-dns-troubleshooting/6.6.6-use-nslookup.md",
+    "05-certification-notes/02-network+/07-Lesson",
+    "05-certification-notes/02-network+/06-lesson/6.6-dns-troubleshooting/Untitled.md",
+    "05-certification-notes/02-network+/06-lesson/6.6-dns-troubleshooting/6.6.5-lab-explore-nslookup.md",
+    "05-certification-notes/02-network+/06-lesson/6.6-dns-troubleshooting/6.6.4-dig.md",
+    "05-certification-notes/02-network+/06-lesson/6.6-dns-troubleshooting/6.6.3-nslookup.md",
+    "05-certification-notes/02-network+/06-lesson/6.6-dns-troubleshooting/6.6.2-name-resolution-issues.md",
+    "05-certification-notes/02-network+/06-lesson/6.6-dns-troubleshooting/6.6.1-client-dns-issues.md",
+    "05-certification-notes/02-network+/06-lesson/6.5-domain-name-system/6.5.15-lab-troubleshoot-dns-records.md",
+    "05-certification-notes/02-network+/06-lesson/6.6-dns-troubleshooting",
+    "05-certification-notes/02-network+/06-lesson/6.5-domain-name-system/6.5.14-lab-cname-records.md",
+    "05-certification-notes/02-network+/06-lesson/6.5-domain-name-system/6.5.13-lab-create-host-records.md",
     "05-certification-notes/02-network+/06-lesson/6.5-domain-name-system",
-    "05-certification-notes/02-network+/06-lesson/6.4-dchp-relay-and-troubleshooting/6.4.9-lab-troubleshoot-ip-configuration2.md",
-    "05-certification-notes/02-network+/06-lesson/6.4-dchp-relay-and-troubleshooting/6.4.8-lab-troubleshoot-ip-configuration1.md",
-    "100-archive/2025-07-personal-log/2025-07-27-daily.md",
     "97-scripting-lab",
-    "02-security-standards/identity-and-access.md",
-    "01-cloud-infrastructure/aws/phase-3-security.md",
     "05-certification-notes/01-cloud+/exam-prep-certificate.png",
     "100-archive/screenshot-png-leftover/aws/2025-07-20-billing-summary.png",
     "100-archive/screenshot-png-leftover/aws/2025-07-20-free-tiers-usage.png",
@@ -221,10 +210,6 @@
     "05-certification-notes/01-cloud+/lesson-09/notes",
     "05-certification-notes/01-cloud+/lesson-10/notes",
     "05-certification-notes/01-cloud+/lesson-10",
-    "05-certification-notes/01-cloud+/lesson-09",
-    "05-certification-notes/02-network+/06-lesson/6.4-dchp-relay-and-troubleshooting",
-    "05-certification-notes/02-network+/06-lesson/6.3-apipa-and-slaac",
-    "05-certification-notes/02-network+/06-lesson/6.1-transport-and-application-layer-protocol",
     "100-archive/screenshot-png-leftover/networking+/5.3.1-edge-router2.png",
     "100-archive/screenshot-png-leftover/networking+/5.3.1-edge-router1.png",
     "100-archive/screenshot-png-leftover/networking+/5.2.4-open-shortest-path-first.png",
