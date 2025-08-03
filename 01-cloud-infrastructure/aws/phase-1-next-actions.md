@@ -1,78 +1,51 @@
-# Phase 1 – Next Actions for HaytSec
-🗓️ Updated: July 26, 2025
+# Phase 1 – Final Next Actions
 
-This checklist captures the remaining critical tasks for completing Phase 1 (Account & Identity Setup) of the HaytSec AWS build.
-
----
-
-## 🔐 Identity & Access
-
-- ✅ Enable MFA for IAM user `haytsec-admin`
-- ✅ Stop using root account for daily use
-- ✅ Test login access for `haytsec-admin` with MFA enabled
-- ✅ Document MFA setup + recovery plan in `identity-and-access.md`
-- ✅ Add backup IAM user with `SecurityAudit` permissions
-- ✅ Log IAM changes in `identity-and-access.md`
-- ✅ **Create `haytsec-auditor` IAM user with `ReadOnlyAccess` policy**
-- ✅ **Log `haytsec-auditor` setup** in `identity-and-access.md`
-- ✅ **Document IAM changes** in `phase-1-account.md`
----
-
-## ⚙️ CLI & Credential Configuration
-
-- ✅ Install AWS CLI v2 on Kali-Hayt
-- ✅ Generate access keys for `haytsec-admin`
-- ✅ Run `aws configure` to bootstrap CLI profile
-- ✅ Test basic command: `aws sts get-caller-identity`
-- ✅ Document CLI setup in `phase-0-primer.md`
+## ✅ Logging Wrap-Up
+- [x] Validate log delivery to S3 bucket: `haytsec-billing-logs`
+- [x] Confirm CloudTrail digest delivery under `CloudTrail-Digest/`
+- [x] Verify log file validation enabled
+- [x] Confirm encryption with KMS key: `alias/haytsec-cloudtrail-key`
+- [x] Create `logging.md` documentation
+- [x] Apply hardened S3 bucket policy (allow `haytsec-auditor`, deny others)
 
 ---
 
-## 💰 Billing & Monitoring
-
-- ✅ Enable Cost Explorer after 24-hour wait
-- ✅ CLI confirms Cost Explorer active (2025-07-26)
-- ✅ Set up **usage reports** and daily spend tracking
-- ✅ Update `billing.md` after Cost Explorer is active
-- ✅ Test budget alert with sandbox service (optional)
-
----
-## 📝 Documentation Reminders
-
-- 🔲 Create `incident-response-playbook.md` in `security-standards/`
-- ✅ Log IAM changes in `identity-and-access.md`
-- ✅ Record IAM user, MFA type, and access key fingerprint securely
+## ✅ Identity & Access Review
+- [x] Ensure MFA on root (Passkey + Authenticator)
+- [x] haytsec-admin user MFA enabled
+- [x] haytsec-admin has CLI access from Kali-Hayt
+- [x] haytsec-auditor in read-only group
+- [x] Disable CLI for haytsec-auditor
 
 ---
 
-## 🌎 Region Strategy
-
-- ✅ Select default AWS region for infrastructure
-- ✅ Documented: `us-west-2` (primary), `us-east-1` (secondary)
-- 🔲 Bookmark Console region view: https://us-west-2.console.aws.amazon.com/
-- 🔲 Set region explicitly in Terraform or IaC config later
-
----
-## 📜 Logging Setup – Phase 1
-
-✅ Create dedicated S3 bucket for CloudTrail logs (e.g., `haytsec-cloudtrail-logs`)
-✅Enable CloudTrail in all regions (management events, read/write)
-✅ Configure log delivery to S3 bucket  
-  └── ✅Use SSE encryption and restrict public access
-- [ ] Enable log file validation (integrity hashes)
-- [ ] Restrict access to log bucket using IAM policies  
-  └── Only allow `haytsec-auditor` or designated log readers
-- [ ] Test logging by signing in and checking for events in the S3 bucket
-- [ ] Document logging setup in `identity-and-access.md` or `logging.md`
-
+## ✅ Billing & Budgets
+- [x] Set $1.00 alert budget (zero-spend mode)
+- [x] Enable Cost Explorer
+- [x] Enable CSV billing reports
+- [x] Enable cost allocation tags
+- [x] Deliver billing logs to S3 bucket
 
 ---
-## Tags
 
-#haytsec/docs  
-#aws/account-setup  
-#security/mfa  
-#aws/billing  
-#budget-alerts  
+## 🟡 Remaining / Pending
+- [ ] Monitor AWS free tier usage weekly (log manually)
+- [ ] Document IAM group policy if adding more users
+- [ ] Begin `phase-2-networking.md` planning
+
+---
+
+## 🗂 Linked References
+- `identity-and-access.md`
+- `logging.md`
+- `billing.md`
+- `cloudtrail-setup.md` (merged into logging)
+
+---
+
+#aws/logging  
+#aws/iam  
+#budget  
 #phase-1  
-#todo/setup
+#haytsec/docs  
+#todo/next

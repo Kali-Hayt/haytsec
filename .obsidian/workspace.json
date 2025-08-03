@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "23f5d6a7a59ee66e",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "54748533d26cd8f2",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01-cloud-infrastructure/aws/phase-1-next-actions.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "phase-1-next-actions"
             }
           }
         ]
@@ -163,8 +167,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9cd66588634574f1",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "02-security-standards/logging.md",
+    "02-security-standards/identity-and-access.md",
+    "01-cloud-infrastructure/aws/phase-1-next-actions.md",
+    "01-cloud-infrastructure/aws/phase-1-account.md",
+    "01-cloud-infrastructure/aws/phase-2-networking.md",
+    "01-cloud-infrastructure/cloudtrail-setup.md.md",
+    "98-system-logs/98-system-log-2025-07-26-reminders.md",
+    "98-system-logs/2025-07-26-iam-cli-setup.md",
+    "01-cloud-infrastructure/aws/screenshots/README.md",
     "99-personal-logs/2025-08-03-daily.md",
     "100-archive/2025-08-personal-log/2025-08-02-daily.md",
     "05-certification-notes/02-network+/08-lesson/8.6-traffic-monitoring/8.7-module-quiz.md",
@@ -184,16 +197,7 @@
     "05-certification-notes/02-network+/08-lesson/8.5-packet-capture-and-analysis/8.5.3-protocol-analyzers.md",
     "05-certification-notes/02-network+/08-lesson/8.5-packet-capture-and-analysis/8.5.2-tcpdump.md",
     "05-certification-notes/02-network+/08-lesson/8.5-packet-capture-and-analysis/8.5.1-packet-capture.md",
-    "05-certification-notes/02-network+/08-lesson/8.4-event-management/8.4.11-lesson-review.md",
     "05-certification-notes/02-network+/08-lesson/8.5-packet-capture-and-analysis",
-    "05-certification-notes/02-network+/08-lesson/8.4-event-management/8.4.10-lab-view-event-logs.md",
-    "05-certification-notes/02-network+/08-lesson/8.4-event-management/8.4.9-configure-logging-on-linux.md",
-    "05-certification-notes/02-network+/08-lesson/8.4-event-management/8.4.8-auditing-device-logs-on-a-cisco-switch.md",
-    "05-certification-notes/02-network+/08-lesson/8.4-event-management/8.4.6-lab-configure-logging-in-pfsense.md",
-    "05-certification-notes/02-network+/08-lesson/8.4-event-management/8.4.7-lab-evaluate-event-logs-in-pfsense.md",
-    "05-certification-notes/02-network+/08-lesson/8.4-event-management/8.4.5-log-reviews.md",
-    "05-certification-notes/02-network+/08-lesson/8.4-event-management/8.4.4-security-information-and-event-management.md",
-    "05-certification-notes/02-network+/08-lesson/8.4-event-management/8.4.3-event-prioritization-and-alerting.md",
     "05-certification-notes/02-network+/08-lesson/8.4-event-management",
     "05-certification-notes/02-network+/08-lesson/8.3-simple-network-management-protocol",
     "05-certification-notes/02-network+/08-lesson/8.2-host-discovery-and-monitoring",

@@ -3,45 +3,61 @@
 ## 🧾 AWS Root Account Setup
 - 📧 Email: JohnHayt@gmail.com (used for root)
 - 📱 MFA: ✅ Enabled (iOS Passkey & Google Authenticator)
-- 🔒 Billing alerts set: ✅ Yes
+- 🔒 Billing alerts set: ✅ Zero-spend budget active ($1.00)
 - 💳 Card used: ✅ Primary card on file
+
 ---
-## 🧍 IAM User & Groups
-- 👤 Created IAM user: `haytsec-admin`
-- 🔐 Attached Policy: `AdministratorAccess` (temporary, will reduce later)
-- 🔒 MFA for IAM user: ✅ Enabled (Passkey + Authenticator backup)
-- ✅ Root account now restricted from daily usage
----
-## 🧍 IAM User Created: `haytsec-auditor`
-- 👤 User type: IAM user
-- 🪪 Group: `read-only-group`
-- 🔐 Permissions: `ReadOnlyAccess` (AWS managed)
-- 🔐 Console login: ✅ Enabled
-- 🧠 Purpose: View-only access for audit, validation, and testing least privilege
----
-## 📜 Budget & Billing Controls
-- 🎯 Budget alert: ✅ Set to **$1 (zero-spend budget)**
-- 📊 Cost Explorer: ✅ Enabled + tested via CLI
-- 💡 Free Tier alerts: 📌 Planned
----
-## 🌍 Region & CLI Setup
-- 🌎 Default Region: `us-west-2` (Oregon)
-- 💻 AWS CLI installed on Kali-Hayt: ✅ Installed and working
-- 🔑 Access keys: ✅ Created and configured using `aws configure`
+
+## 🧍 IAM Users & Access
+
+### haytsec-admin (Primary Admin)
+- 👤 IAM user with full console + CLI access
+- 🔐 Permissions: `AdministratorAccess` (temporary — to be scoped down)
+- 🔒 MFA: ✅ Enabled (Passkey + Authenticator backup)
+- 🔑 CLI access configured via `aws configure` on Kali-Hayt
 - 🧪 Verified via: `aws sts get-caller-identity`
----
-## 📜 Logging
 
-- ✅ CloudTrail enabled in all regions (multi-region trail)
-- ✅ Logs delivered to S3 bucket `haytsec-billing-logs`
-- ✅ SSE-KMS encryption with key alias `haytsec-cloudtrail-key`
-- 📄 Detailed config in: `cloudtrail-setup.md`
+### haytsec-auditor (Read-only Auditor)
+- 👤 IAM user in group `read-only-group`
+- 🔐 Permissions: `ReadOnlyAccess` (AWS managed)
+- 🔒 Console login: ✅ Enabled
+- 🔐 MFA: ❌ Not required (read-only)
+- 🔒 CLI access: ❌ Disabled by design
 
 ---
-## 📝 Notes
-- Free tier covers EC2 (750hrs/month t2.micro), S3 (5GB), Lambda, etc.
-- ⚠️ Watch services like NAT Gateway, RDS, and Elastic IPs for surprise charges
-- IAM security baseline complete for Phase 1
+
+## 💰 Billing & Budget Controls
+- 🎯 Budget alert: ✅ $1.00 (Zero-spend)
+- 📊 Cost Explorer: ✅ Enabled + tested via CLI
+- 📄 Billing logs delivered to `haytsec-billing-logs` bucket
+- 📁 Free Tier tracking active; alerts pending
+
+---
+
+## 🌍 Region Strategy
+- 🌎 Default: `us-west-2` (Oregon)
+- 🧭 Secondary: `us-east-1` (documented for DR planning)
+- ✅ Region pinned in both CLI & Console views
+
+---
+
+## 🛡️ Logging Infrastructure
+- ✅ CloudTrail trail `haytsec-orgtrail` enabled (multi-region)
+- ✅ Logs delivered to: `haytsec-billing-logs/AWSLogs/...`
+- ✅ SSE-KMS encryption with `alias/haytsec-cloudtrail-key`
+- ✅ Log file validation enabled (digest chain confirmed)
+- ✅ Digest delivery verified: `CloudTrail-Digest/`
+- ✅ Access to logs restricted via bucket policy (auditor-only enforced)
+- 📄 See `logging.md` for detailed logging setup
+
+---
+
+## 📝 Phase 1 Notes
+- IAM security baseline established
+- Budget enforcement and logging pipeline functional
+- CLI bootstrapped on Kali-Hayt workstation
+- All configurations versioned in Obsidian
+- ⚠️ Caution: Monitor NAT Gateway & Elastic IP for cost leaks
 
 ---
 
@@ -49,7 +65,6 @@
 #security/mfa  
 #aws/billing  
 #budget-alerts  
+#logging  
 #phase-1  
-#haytsec/docs  
-#todo/setup  
-
+#haytsec/docs
