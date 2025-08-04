@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "adf1ab80cd94e854",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "334b2a50c71b513e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-cloud-infrastructure/aws/phase-1-next-actions.md",
+                "file": "100-archive/2025-08-personal-log/2025-08-03-daily.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "phase-1-next-actions"
+              "title": "2025-08-03-daily"
+            }
+          },
+          {
+            "id": "9904921743d91d68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99-personal-logs/2025-08-04-daily.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-08-04-daily"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,45 +182,45 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "9cd66588634574f1",
   "lastOpenFiles": [
-    "02-security-standards/logging.md",
-    "02-security-standards/identity-and-access.md",
-    "01-cloud-infrastructure/aws/phase-1-next-actions.md",
-    "01-cloud-infrastructure/aws/phase-1-account.md",
-    "01-cloud-infrastructure/aws/phase-2-networking.md",
-    "01-cloud-infrastructure/cloudtrail-setup.md.md",
-    "98-system-logs/98-system-log-2025-07-26-reminders.md",
-    "98-system-logs/2025-07-26-iam-cli-setup.md",
-    "01-cloud-infrastructure/aws/screenshots/README.md",
-    "99-personal-logs/2025-08-03-daily.md",
-    "100-archive/2025-08-personal-log/2025-08-02-daily.md",
-    "05-certification-notes/02-network+/08-lesson/8.6-traffic-monitoring/8.7-module-quiz.md",
+    "100-archive/2025-08-personal-log/2025-08-03-daily.md",
+    "99-personal-logs/2025-08-04-daily.md",
+    "99-personal-logs/2025-08-03-scratchpad.md",
+    "99-personal-logs/2025-08-03-daily-updated-20250804-035842.md",
+    "05-certification-notes/02-network+/09-lesson/9.5-social-engineering/9.7-checkpoint-review.md",
+    "05-certification-notes/02-network+/10-lesson",
+    "05-certification-notes/02-network+/09-lesson/9.5-social-engineering/9.6-module-quiz.md",
+    "05-certification-notes/02-network+/09-lesson/9.5-social-engineering/9.5.5-lesson-review.md",
+    "05-certification-notes/02-network+/09-lesson/9.5-social-engineering/9.5.4-lab-crack-a-password-with-john-the-ripper.md",
+    "05-certification-notes/02-network+/09-lesson/9.5-social-engineering/9.5.3-lab-respond-to-social-engineering-exploits.md",
+    "05-certification-notes/02-network+/09-lesson/9.5-social-engineering/9.5.2-password-attacks.md",
+    "05-certification-notes/02-network+/09-lesson/9.5-social-engineering/9.5.1-social-engineering-attacks.md",
+    "05-certification-notes/02-network+/09-lesson/9.4-rogue-system-attacks/9.4.10-lesson-review.md",
+    "05-certification-notes/02-network+/09-lesson/9.5-social-engineering",
+    "05-certification-notes/02-network+/09-lesson/9.4-rogue-system-attacks/9.4.9-lab-analyze-dns-spoofing.md",
+    "05-certification-notes/02-network+/09-lesson/9.4-rogue-system-attacks/9.4.8-lab-poison-dns.md",
+    "05-certification-notes/02-network+/09-lesson/9.4-rogue-system-attacks/9.4.7-lab-configure-dchp-snooping.md",
+    "05-certification-notes/02-network+/09-lesson/9.4-rogue-system-attacks/9.4.6-lab-discover-a-rogue-dchp-server.md",
+    "05-certification-notes/02-network+/09-lesson/9.4-rogue-system-attacks/9.4.4-dns-attacks.md",
+    "05-certification-notes/02-network+/09-lesson/9.4-rogue-system-attacks/9.4.2-rogue-dchp.md",
+    "05-certification-notes/02-network+/09-lesson/9.4-rogue-system-attacks/9.4.1-rogue-devices-and-services.md",
+    "05-certification-notes/02-network+/09-lesson/9.3-spoofing-attacks/9.3.10-lesson-review.md",
+    "05-certification-notes/02-network+/09-lesson/9.4-rogue-system-attacks",
+    "05-certification-notes/02-network+/09-lesson/9.3-spoofing-attacks/9.3.9-lab-perform-a-dchp-spoofing-on-path-attack.md",
+    "05-certification-notes/02-network+/09-lesson/9.3-spoofing-attacks/9.3.8-lab-spoof-mac-addresses-with-smac.md",
+    "05-certification-notes/02-network+/09-lesson/9.3-spoofing-attacks/9.3.7-lab-posion-arp-and-analyze-with-wireshark.md",
+    "05-certification-notes/02-network+/09-lesson/9.3-spoofing-attacks/9.3.6-vlan-hopping-attacks.md",
+    "05-certification-notes/02-network+/09-lesson/9.3-spoofing-attacks/9.3.1-on-path-attacks.md",
+    "05-certification-notes/02-network+/09-lesson/9.3-spoofing-attacks",
+    "05-certification-notes/02-network+/09-lesson/9.2-network-threats-and-attacks/9.2.7-lesson-review.md",
+    "05-certification-notes/02-network+/09-lesson/9.2-network-threats-and-attacks",
+    "05-certification-notes/02-network+/09-lesson/9.1-security-concepts",
     "05-certification-notes/02-network+/09-lesson",
-    "05-certification-notes/02-network+/08-lesson/8.6-traffic-monitoring/8.6.9-lesson-review.md",
-    "05-certification-notes/02-network+/08-lesson/8.6-traffic-monitoring/8.6.7-lab-configure-qos.md",
-    "05-certification-notes/02-network+/08-lesson/8.6-traffic-monitoring/8.6.6-traffic-shaping.md",
-    "05-certification-notes/02-network+/08-lesson/8.6-traffic-monitoring/8.6.5-bandwidth-management.md",
-    "05-certification-notes/02-network+/08-lesson/8.6-traffic-monitoring/8.6.4-traffic-testing-tools.md",
-    "05-certification-notes/02-network+/08-lesson/8.6-traffic-monitoring/8.6.3-flow-data.md",
-    "05-certification-notes/02-network+/08-lesson/8.6-traffic-monitoring/8.6.2-interface-statistics.md",
-    "05-certification-notes/02-network+/08-lesson/8.6-traffic-monitoring/8.6.1-common-performance-issues.md",
-    "05-certification-notes/02-network+/08-lesson/8.5-packet-capture-and-analysis/8.5.7-lesson-review.md",
     "05-certification-notes/02-network+/08-lesson/8.6-traffic-monitoring",
-    "05-certification-notes/02-network+/08-lesson/8.5-packet-capture-and-analysis/8.5.6-configure-port-mirroring.md",
-    "05-certification-notes/02-network+/08-lesson/8.5-packet-capture-and-analysis/8.5.5-lab-troubleshoot-with-wireshark.md",
-    "05-certification-notes/02-network+/08-lesson/8.5-packet-capture-and-analysis/8.5.3-protocol-analyzers.md",
-    "05-certification-notes/02-network+/08-lesson/8.5-packet-capture-and-analysis/8.5.2-tcpdump.md",
-    "05-certification-notes/02-network+/08-lesson/8.5-packet-capture-and-analysis/8.5.1-packet-capture.md",
     "05-certification-notes/02-network+/08-lesson/8.5-packet-capture-and-analysis",
     "05-certification-notes/02-network+/08-lesson/8.4-event-management",
-    "05-certification-notes/02-network+/08-lesson/8.3-simple-network-management-protocol",
-    "05-certification-notes/02-network+/08-lesson/8.2-host-discovery-and-monitoring",
     "100-archive/screenshot-png-leftover/networking+/8.1.8-diagrams.png",
-    "05-certification-notes/02-network+/08-lesson/8.1-organizational-policies-and-documentation",
-    "05-certification-notes/02-network+/08-lesson",
-    "05-certification-notes/02-network+/07-lesson/7.4-diaster-recovery-and-high-availability",
-    "05-certification-notes/02-network+/07-lesson/7.3-email-and-voice-services",
     "05-certification-notes/01-cloud+/exam-prep-certificate.png",
     "100-archive/screenshot-png-leftover/aws/2025-07-20-billing-summary.png",
     "100-archive/screenshot-png-leftover/aws/2025-07-20-free-tiers-usage.png",
