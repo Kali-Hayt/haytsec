@@ -2,7 +2,7 @@
 
 ## ⚡ Focus for Today
 - [ ] Obsidian Prepare Fall Semester.
-- [ ] GitHub Repo Token Update
+- [x] GitHub Repo Token Update
 - [ ] Sync Obsidian To Another System
 - [ ] Hack The Box- Voleur-Explorations Flags
 - [ ] HaytSec-Continue Phase Two Tasks
