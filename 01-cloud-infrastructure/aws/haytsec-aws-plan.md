@@ -27,7 +27,7 @@ This plan outlines the phased buildout of HaytSec’s secure AWS cloud infrastru
 - [[aws/phase-1-account]]
 - [[security-standards/identity-and-access]]
 - [[aws/phase-1-next-actions]]
-- [[system-logs/2025-07-26-iam-cli-setup]]
+- [[2025-07-26-iam-cli-setup]]
 
 ---
 
