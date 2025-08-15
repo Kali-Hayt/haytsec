@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-cloud-infrastructure/aws/screenshots/README.md",
+                "file": "99-daily-plan-reflection/2025-08-15-daily-plan-reflection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "2025-08-15-daily-plan-reflection"
             }
           }
         ]
@@ -170,9 +170,9 @@
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "01-cloud-infrastructure/aws/screenshots/README.md",
-    "99-daily-plan-reflection/archive-daily-plan-reflection",
+    "99-daily-plan-reflection/2025-08-15-daily-plan-reflection.md",
     "99-daily-plan-reflection/2025-08-14-daily-plan-reflection.md",
-    "Untitled.md",
+    "99-daily-plan-reflection/archive-daily-plan-reflection",
     "98-system-logs/2025-07-26-iam-cli-setup.md",
     "98-system-logs/98-system-log-2025-07-26-reminders.md",
     "99-daily-plan-reflection/archive-daily-plan-reflection/2025-08-daily-plan-relfection/2025-08-13-daily.md",
