@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "90-daily-plan-reflection/2025-08-15-daily-plan-reflection.md",
+                "file": "90-daily-plan-reflection/archive-daily-plan-reflection/2025-08-daily-plan-relfection/2025-08-15-daily-plan-reflection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "2025-08-15-daily-plan-reflection"
             }
+          },
+          {
+            "id": "18ea34751b3296c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "90-daily-plan-reflection/archive-daily-plan-reflection/2025-08-16-daily-plan-reflection.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-08-16-daily-plan-reflection"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,12 +182,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "9cd66588634574f1",
   "lastOpenFiles": [
+    "90-daily-plan-reflection/archive-daily-plan-reflection/2025-08-daily-plan-relfection/2025-08-15-daily-plan-reflection.md",
+    "90-daily-plan-reflection/archive-daily-plan-reflection/2025-08-16-daily-plan-reflection.md",
     "01-cloud-infrastructure/aws/screenshots/README.md",
-    "90-daily-plan-reflection/2025-08-15-daily-plan-reflection.md",
-    "90-daily-plan-reflection/archive-daily-plan-reflection/2025-08-14-daily-plan-reflection.md",
-    "Untitled.md",
+    "90-daily-plan-reflection/archive-daily-plan-reflection/2025-08-daily-plan-relfection/2025-08-14-daily-plan-reflection.md",
     "94-hack-the-box",
     "90-daily-plan-reflection/archive-daily-plan-reflection",
     "06-system-logs/2025-07-26-iam-cli-setup.md",

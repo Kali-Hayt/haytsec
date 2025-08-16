@@ -1,9 +1,8 @@
-# 💻🐧 2025-08-15-Study Journal
+# 💻🐧 2025-08-16-Study Journal
 
 ## ⚡ Focus for Today
 - [ ] Hack The Box- Voleur-Explorations Flags (VirtualBox)
 - [ ] HaytSec-Continue Phase Two Tasks
-- [ ] VirtualBox-Dell-Note
 - [ ] Review Network+ and Cloud+ (every 30–60 minutes)
 - [ ] Sell MacBook Pro/Research New Laptop
 ## 🛡 Course Deadlines
@@ -36,7 +35,6 @@
 
 ---
 ## 🌤 Morning Reflection
-This morning was dedicated to completing a couple of routine Friday errands, which required a few hours to complete. Overall, the day has been productive. After a brief rest and lunch, I plan to proceed with my evening objectives, which include setting up VirtualBox, evaluating its functionality, and completing a couple of additional tasks.
 
 ---
 ## 🌇 Evening Reflection
